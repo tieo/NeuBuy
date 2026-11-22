@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- The status bar icon: the mark alone, cropped to its own bounds, white on nothing, as Android
+     draws only its shape. -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="48"
-    android:viewportHeight="48">
-    <path
-        android:fillColor="#FFFFFF"
-        android:fillType="evenOdd"
-        android:pathData="M8,5 H40 V38 L36,43 L32,38 L28,43 L24,38 L20,43 L16,38 L12,43 L8,38 Z M13,12 H35 V16.5 H13 Z M13,20 H29 V24.5 H13 Z" />
+    android:viewportWidth="52"
+    android:viewportHeight="52">
+    <group android:translateX="-28" android:translateY="-28">
+        <path
+            android:pathData="M34,45 V34 H45 M74,45 V34 H63 M34,63 V74 H45 M74,63 V74 H63"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="6.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M43.5,54 a10.5,10.5 0 1,0 21,0 a10.5,10.5 0 1,0 -21,0 Z" />
+    </group>
 </vector>
